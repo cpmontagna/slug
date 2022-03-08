@@ -13,4 +13,4 @@ unevenSamples/
 *.blg
 *.log
 *.out
-.stignore
+*stignore
