@@ -1,3 +1,15 @@
 *#*
 *.org
 *~
+*.fig
+slug1.ogv
+slug2.ogv
+biblio/
+.st*
+*.zip
+unevenSamples/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
