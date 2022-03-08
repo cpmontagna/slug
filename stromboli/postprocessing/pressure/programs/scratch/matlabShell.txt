@@ -1,0 +1,21 @@
+hold on                                                            
+plot(sampleTimes,pressure(50,:))                                   
+plot(sampleTimes,pressure(300,:))                                  
+plot(sampleTimes,pressure(100,:))                                  
+xlabel('Time, s');                                                 
+ylabel('Pressure, Pa');                                            
+zetas([50 100 200 300])                                            
+                                                                   
+ =                                                                 
+                                                                   
+26.3880                                                            
+48.5538                                                            
+99.9224                                                            
+46.0134                                                            
+                                                                   
+plot(sampleTimes,pressure(50,:))                                   
+plot(sampleTimes,pressure(100,:))                                  
+plot(sampleTimes,pressure(200,:))                                  
+plot(sampleTimes,pressure(100,:))                                  
+legend('z = 50 m','z = 100 m','z = 200 m','z = 300m','box','off'); 
+legend('z = 50 m','z = 100 m','z = 200 m','z = 300 m','box','off');
