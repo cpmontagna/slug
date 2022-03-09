@@ -38,10 +38,10 @@ close all
 % ========== TO BE SET ========================================
 
 % path of deformation data (*.mat)
-path_data = '../data/Somigliana/mat/';
+path_data = '../data/Green/mat/';
 
 % path for saving figures
-path_figs = '../figures/Somigliana/';
+path_figs = '../figures/Green/';
 
 % ==========================================================
 
