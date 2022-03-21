@@ -17,8 +17,14 @@ ground displacement at the Earth's surface ([Longo et al., 2012](https://doi.org
   ([movie](shortTube/movies/slug.ogv)).
   
 + [stromboli](stromboli/):
-  conduit is 170 m long, and 0.5 m wide. A slug forms and rises to
-  the top of the magma column ([movie](stromboli/movies/slug3.ogv)).
+  + [slug1](stromboli/slug1):
+	conduit is 170 m long, and 0.5 m wide. A slug forms and rises to
+	the top of the magma column
+	([movie](stromboli/slug1/postprocessing/movies/slug1.ogv)).
+  + [slug2](stromboli/slug2):
+	conduit is 170 m long, 0.5 m wide. At time 0, continuous gas
+	injection starts from the bottom of the conduit
+	([movie](stromboli/slug2/postprocessing/movies/slug2.ogv)). 
 
 ## Developers
 

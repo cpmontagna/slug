@@ -1,5 +1,6 @@
 *#*
 *.org
+*.tex
 *~
 *.fig
 slug1.ogv
@@ -13,4 +14,4 @@ unevenSamples/
 *.blg
 *.log
 *.out
-*stignore
+.stignore
