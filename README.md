@@ -9,8 +9,20 @@ al., 2003](https://doi.org/10.1029/2002JB001919); [Mattia et al.,
 2021](https://doi.org/10.3390/rs13204064)). 
 
 Pressure at the boundaries of the fluid system is used to calculate
-ground displacement at the Earth's surface ([Longo et al., 2012](https://doi.org/10.1007/s00445-011-0570-0)).
+ground displacement at the Earth's surface ([Longo et al.,
+2012](https://doi.org/10.1007/s00445-011-0570-0)).
 
+## workflow
+   1. [[file:matlabScripts/extractPressureTimeSeries.m][extractPressureTimeSeries]]: extract time series of pressure at boundary nodes;
+   2. [[file:matlabScripts/pressuresToForces2DSymmetricVerticalBoundary.m][pToForces]]: convert pressure time series to force time series on
+      boundary points;
+   3. [[file:matlabScripts/deformation.m][deformation]]: calculate
+      deformation and strain; 
+      rock params from [[cite:&Chouet2003]];
+   4.  [[file:matlabScripts/plotTimseriesDeformation.m][plotTimeSeriesDeformation]]: plot.
+
+
+## simulations
 + [shortTube](shortTube/):
   conduit is 30 m long and 0.5 m wide. Gas enters from the bottom,
   forming Taylor bubbles that rise to the top
