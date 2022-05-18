@@ -286,7 +286,7 @@ for it = 2:size(Utotx,1)
 end
 
 XS = [xs' , zeros(NS,1), zs']; % source coordinates
-XR = [xr, yr, zr];  % receiver coordinates
+XR = [xr', yr', zr'];  % receiver coordinates
 
 % save *.mat
 

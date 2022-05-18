@@ -13,14 +13,13 @@ ground displacement at the Earth's surface ([Longo et al.,
 2012](https://doi.org/10.1007/s00445-011-0570-0)).
 
 ## workflow
-   1. [[file:matlabScripts/extractPressureTimeSeries.m][extractPressureTimeSeries]]: extract time series of pressure at boundary nodes;
-   2. [[file:matlabScripts/pressuresToForces2DSymmetricVerticalBoundary.m][pToForces]]: convert pressure time series to force time series on
+   1. [[file:scripts/extractPressureTimeSeries.m][extractPressureTimeSeries]]: extract time series of pressure at boundary nodes;
+   2. [[file:scripts/pressuresToForces2DSymmetricVerticalBoundary.m][pToForces]]: convert pressure time series to force time series on
       boundary points;
-   3. [[file:matlabScripts/deformation.m][deformation]]: calculate
+   3. [[file:scripts/deformation.m][deformation]]: calculate
       deformation and strain; 
       rock params from [[cite:&Chouet2003]];
-   4.  [[file:matlabScripts/plotTimseriesDeformation.m][plotTimeSeriesDeformation]]: plot.
-
+   4.  [[file:scripts/plotTimseriesDeformation.m][plotTimeSeriesDeformation]]: plot.
 
 ## simulations
 + [shortTube](shortTube/):
