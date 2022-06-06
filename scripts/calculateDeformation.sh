@@ -1,11 +1,13 @@
 #! /bin/bash
 
-# params
-baseDir="/disk/science/my_science/magmaDynamics/magmaFoam/bubbles/slug"
+# params ======================================== #
+baseDir="/disk/science/my_science/magmaDynamics/magmaFoam/bubbles/slug/repo"
 simulationName="stromboli/slug_inlet_long_r2_mu10000_u0.1"
 sampleTime=0.1    # pressure sample time, s
 endTime=306.5        # pressure final time, s
 radius=2          # slug radius, m
+
+# =============================================== #
 
 cd $baseDir/$simulationName
 

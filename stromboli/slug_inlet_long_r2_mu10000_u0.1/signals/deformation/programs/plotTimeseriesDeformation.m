@@ -63,7 +63,8 @@ for ix = 1:size(XR,1)
     xlabel('Time (s)');
     ylabel('Displacement (mm)');
     print(fig1, '-djpeg',[path_figs 'verticalDisplacement_x_' num2str(XR(ix)) ...
-                        '.jpg']); 
+                          '.jpg']);
+    savefig([path_figs 'verticalDisplacement_x_' num2str(XR(ix)) '.fig']);
     
     % horizontal deformation
     fig2 = figure(2);
@@ -74,7 +75,8 @@ for ix = 1:size(XR,1)
     xlabel('Time (s)');
     ylabel('Displacement (mm)');
     print(fig2, '-djpeg',[path_figs 'horizontalDisplacement_x_' ...
-                        num2str(XR(ix)) '.jpg']); 
+                          num2str(XR(ix)) '.jpg']);
+    savefig([path_figs 'horizontalDisplacement_x_' num2str(XR(ix)) '.fig']);
                     
     % volumetric strain 
     fig3 = figure(3);
@@ -85,5 +87,6 @@ for ix = 1:size(XR,1)
     xlabel('Time (hours)');
     ylabel('Strain');
     print(fig3, '-djpeg',[path_figs 'volStrain_x_' ...
-                        num2str(XR(ix)) '.jpg']); 
+                          num2str(XR(ix)) '.jpg']);
+    savefig([path_figs 'volStrain_x_' num2str(XR(ix)) '.fig']);
 end
