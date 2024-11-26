@@ -13,13 +13,13 @@ ground displacement at the Earth's surface ([Longo et al.,
 2012](https://doi.org/10.1007/s00445-011-0570-0)).
 
 ## workflow
-   1. [[file:scripts/extractPressureTimeSeries.m][extractPressureTimeSeries]]: extract time series of pressure at boundary nodes;
-   2. [[file:scripts/pressuresToForces2DSymmetricVerticalBoundary.m][pToForces]]: convert pressure time series to force time series on
+   1. [scripts/extractPressureTimeSeries.m](extractPressureTimeSeries): extract time series of pressure at boundary nodes;
+   2. [scripts/pressuresToForces2DSymmetricVerticalBoundary.m](pToForces): convert pressure time series to force time series on
       boundary points;
-   3. [[file:scripts/deformation.m][deformation]]: calculate
+   3. [scripts/deformation.m](deformation): calculate
       deformation and strain; 
-      rock params from [[cite:&Chouet2003]];
-   4.  [[file:scripts/plotTimseriesDeformation.m][plotTimeSeriesDeformation]]: plot.
+      rock params from [Chouet et al., 2003](https://doi.org/10.1029/2002JB001919);
+   4.  [scripts/plotTimseriesDeformation.m](plotTimeSeriesDeformation): plot.
 
 ## simulations
 + [shortTube](shortTube/):
