@@ -39,7 +39,7 @@ ground displacement at the Earth's surface ([Longo et al.,
 
 ## Developers
 
-**Simone Colucci** simone.colucci@ingv.it
+**Simone Colucci** simone.colucci@ingv.it <br/> 
 **Chiara Montagna** chiara.montagna@ingv.it
 
 Project developed at [INGV Pisa](http://www.pi.ingv.it/) with support
